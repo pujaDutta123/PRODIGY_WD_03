@@ -1,0 +1,43 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto; /* Centering the board horizontally */
+    justify-content: center; /* Centering the cells horizontally within the board */
+    align-items: center; /* Centering the cells vertically within the board */
+}
+
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #b71c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #f09e1a;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #7994b1;
+}
